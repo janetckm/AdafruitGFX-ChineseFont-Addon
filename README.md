@@ -16,12 +16,15 @@ http://iswsa.acm.org/mphf/mphf.py
 首先是將weather.txt當中取出獨立的中文字  
 
 ```python .\discrete_utf8.py .\weather.txt ```
+```python2 ./discrete_utf8.py ./weather.txt```
+
 
 再來就是計算MPH與輸出字型檔案  
 
 ```python .\hash.py ```  
 預設是全形24x24，半形12x24，如果需要16x15與8x15的話，後面加 -s就可以了  
 ```python .\hash.py -s```  
+```python2 ./hash.py -s```
 如果想看點陣字型的話，後面加上 -p  
 ```python .\hash.py -p```  
 
